@@ -168,31 +168,31 @@ for blip in range(18):
         for blap in range(18):
             for blup in range(18):
                 if floor[blip][blop] == 'a1':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape1[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s0[blap][blup]
                 elif floor[blip][blop] == 'b2':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape2[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s1[blap][blup]
                 elif floor[blip][blop] == 'c2':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape3[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s2[blap][blup]
                 elif floor[blip][blop] == 'd3':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape4[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s3[blap][blup]
                 elif floor[blip][blop] == 'c1':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape5[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s4[blap][blup]
                 elif floor[blip][blop] == 'a2':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape6[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s5[blap][blup]
                 elif floor[blip][blop] == 'a3':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape7[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s6[blap][blup]
                 elif floor[blip][blop] == 'b1':
-                    floor2[blip * 18 + blap][blop * 18 + blup] = shape8[blap][blup]
+                    floor2[blip * 18 + blap][blop * 18 + blup] = s7[blap][blup]
                 elif floor[blip][blop] == 'e2':
                     if rand == 1:
-                        floor2[blip * 18 + blap][blop * 18 + blup] = shape9[blap][blup]
+                        floor2[blip * 18 + blap][blop * 18 + blup] = s8[blap][blup]
                     else:
-                        floor2[blip * 18 + blap][blop * 18 + blup] = shape10[blap][blup]
+                        floor2[blip * 18 + blap][blop * 18 + blup] = s9[blap][blup]
                 elif floor[blip][blop] == 'f2':
                     if rand == 1:
-                        floor2[blip * 18 + blap][blop * 18 + blup] = shape11[blap][blup]
+                        floor2[blip * 18 + blap][blop * 18 + blup] = s10[blap][blup]
                     else:
-                        floor2[blip * 18 + blap][blop * 18 + blup] = shape12[blap][blup]
+                        floor2[blip * 18 + blap][blop * 18 + blup] = s11[blap][blup]
                 else:
                     floor2[blip * 18 + blap][blop * 18 + blup] = 1
 img = Image.new('1', (324, 558))
