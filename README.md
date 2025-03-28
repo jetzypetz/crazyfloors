@@ -13,6 +13,7 @@ Simply clone the repository and run the creatively named file!
 
 ```bash
 git clone https://github.com/jetzypetz/crazyfloors
+cd crazyfloors
 python3 'RANDO SCHMANDO.py'
 ```
 
